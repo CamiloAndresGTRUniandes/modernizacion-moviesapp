@@ -1,0 +1,266 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/TestApiMovies",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/ActorDirector",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/ActorDirector",
+      "UpstreamHttpMethod": [ "POST" ]
+
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/ActorDirector/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/GetActorDirector/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/ActorDirector/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/UpdateActorDirector/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/ActorDirector/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/DeleteActorDirector/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ActorDirector/Creacion",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/CreacionArchivo",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PeliculaAlquiler/Crear",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/CrearPeliculaAlquiler",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PeliculaAlquiler/ConsultaPeliculaUsuario",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/TraerConsultaPeliculaUsuario",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PeliculaAlquiler/Cancelar",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/CancelarPeliculaAlquiler",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PeliculaAlquiler/Devolver",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/DevolverPeliculaAlquiler",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PeliculaAlquiler/Recibir",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/RecibirPeliculaAlquiler",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Peliculas",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/ConsultarPeliculas",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Peliculas/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/ConsultarPelicula/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Peliculas/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/UpdatePelicula/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Peliculas/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/DeletePelicula/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44328
+        }
+      ],
+      "UpstreamPathTemplate": "/TestApiUsuarios",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Usuario/registrar",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44328
+        }
+      ],
+      "UpstreamPathTemplate": "/registrar",
+      "UpstreamHttpMethod": [ "POST" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Usuario",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44328
+        }
+      ],
+      "UpstreamPathTemplate": "/ObtenerUsuario",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Usuario/login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "\\": null,
+          "Port": 44328
+        }
+      ],
+      "UpstreamPathTemplate": "/Login",
+      "UpstreamHttpMethod": [ "POST" ]
+    }
+
+  ]
+}
+
+
