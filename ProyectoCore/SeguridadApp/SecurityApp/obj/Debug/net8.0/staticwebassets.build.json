@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "iVQl1Hzk1WDPQQcarPuxhGCX5rPtaxoNnr3xQUpRADY=",
+  "Source": "SecurityApp",
+  "BasePath": "_content/SecurityApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SecurityApp\\wwwroot",
+      "Source": "SecurityApp",
+      "ContentRoot": "D:\\Kometsales\\MasterAndes\\ModernizacionSofware\\ProyectoCore\\SeguridadApp\\SecurityApp\\wwwroot\\",
+      "BasePath": "_content/SecurityApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
