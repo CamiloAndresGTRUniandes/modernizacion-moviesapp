@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "WI3ANqWSqwRZZBLJyssFuFI/01eoyxo48QG24x0IA+I=",
+  "Source": "MoviesApp",
+  "BasePath": "_content/MoviesApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MoviesApp\\wwwroot",
+      "Source": "MoviesApp",
+      "ContentRoot": "D:\\Kometsales\\MasterAndes\\ModernizacionSofware\\ProyectoCore\\Movies\\MoviesApp\\wwwroot\\",
+      "BasePath": "_content/MoviesApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

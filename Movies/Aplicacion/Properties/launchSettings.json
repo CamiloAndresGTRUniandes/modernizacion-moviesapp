@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Aplicacion": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Key": "Value"
+      }
+    }
+  }
+}
